@@ -1,0 +1,117 @@
+html,
+body {
+    width: 100%;
+}
+
+* {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    color: #415161;
+}
+
+
+.flex-div {
+    display: flex;
+}
+
+
+/*Navbar*/
+
+
+.navcoloritem {
+    color: #415161 !important;
+}
+
+.container-in{
+    width: 95%;
+    margin: auto;
+}
+
+#map{
+    display: flex;
+    align-items: center;
+}
+
+#contact{
+    background-color: #F2F2F2;
+    height: fit-content;
+}
+.message {
+    position: relative;
+    bottom: 4rem;
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    background-color: #D7DDE5;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.buttoncss {
+    border: 2px solid #415161;
+    border-left: 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: #415161;
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.buttoncss:hover {
+    text-decoration: none;
+    color: #415161;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+.container-footer {
+    width: 95%;
+    margin: auto;
+    background-color: #415161;
+}
+
+.flex-item-footer {
+    width: 25%;
+    text-align: center;
+}
+
+.list-item {
+    text-decoration: none;
+    color: white;
+}
+
+.list-item:hover {
+    color: #F2295B;
+    text-decoration: none;
+}
+
+.social {
+    color: #415161;
+    background-color: white;
+    padding: 0.5rem;
+    font: 2rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.social:hover {
+    color: white;
+    background-color: #F2295B;
+}
+
+/* copyright */
+.container-copyright {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 3rem 10rem 3rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
